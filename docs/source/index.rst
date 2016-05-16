@@ -3,14 +3,24 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Info Sites's documentation!
-======================================
+Bienvenue sur la documentation d'InfoSites!
+===========================================
+
+InfoSites est un outil qui vous permez de superviser vos différents sites développés en PHP, soit à l'aide d'un framework, soit à l'aide d'un CMS. Vous pourrez gérer des organisations, des contacts, des projets, des sites de projets. Et notamment voir les mises à jour des plugins de chaque site de projets.
+
+Cette documentation va vous permettre de prendre en main l'outil rapidement.
+
+Il est distribué sous forme de plugin pour le CMS SPIP.
+
 
 Contents:
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
+   :numbered:
+   :glob:
 
+   installation/index
 
 
 Indices and tables
