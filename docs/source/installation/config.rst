@@ -1,6 +1,6 @@
-----------------
+---------------
 Configurer SPIP
-----------------
+---------------
 Après avoir récupérer les fichiers sources de SPIP, dans votre navigateur, aller à l'adresse suivante : `http://example.tld/ecrire/`. Et suivre les différentes étapes à l'écran.
 
 Cela fait, aller sur la page de gestion des plugins : ``Configuration > Gestion des plugins``. Puis cliquer sur ``Verrouilés``. Rechercher le plugin ``SVP``. Cliquer sur l'icône de configuration à droite de la ligne. Cela vous amènera sur la page ``http://example.tkd/ecrire/?exec=configurer_svp``. Sélectionner les éléments suivants dans le formulaire :
@@ -23,9 +23,9 @@ Ajouter un dépôt
 * Dans le formulaire ``Ajouter un dépôt``, saisir le lien ``http://plugins.spip.net/depots/principal.xml`` dans le champ ``Fichier XML du dépôt`` ;
 * Cliquer sur le bouton ``Ajouter``.
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Installer le plugin InfoSites
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Installer le plugin Info Sites
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 * Aller sur la page de gestion des plugins : ``Configuration > Gestion des plugins`` ;
 * Cliquer sur l'onglet ``Ajouter des plugins > Plugins`` ;
 * Dans le champ ``Rechercher dans les plugins``, taper *info sites* ;
