@@ -22,6 +22,7 @@ Table des matières :
    :glob:
 
    installation/index
+   utilisation/index
    contributing
    about
 
