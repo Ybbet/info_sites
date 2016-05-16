@@ -13,7 +13,9 @@ Cette documentation va vous permettre de prendre en main l'outil rapidement.
 Il est distribué sous forme de plugin pour le CMS SPIP.
 
 
-Contents:
+====================
+Table des matières :
+====================
 
 .. toctree::
    :maxdepth: 3
@@ -21,12 +23,4 @@ Contents:
    :glob:
 
    installation/index
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
 
