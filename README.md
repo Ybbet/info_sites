@@ -1,4 +1,3 @@
-# info_sites
-Documentation du plugin InfoSites
+# Documentation du plugin Info Sites
 
-La documentation d'InfoSites pour une génération du site par readthedocs.org
+La documentation d'Info Sites pour une génération du site par readthedocs.org
