@@ -16,6 +16,7 @@ Utilisation
 
 S'identifier
 ------------
+**Utilisateur(s) :** |user_niv0| |user_niv1| |user_niv2|
 Toutes les pages d'**Info Sites** nécessitent que l'utilisateur s'identifie pour pouvoir les consulter.
 
 Avec LDAP

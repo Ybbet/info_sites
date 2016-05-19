@@ -6,7 +6,7 @@
 Bienvenue sur la documentation d'Info Sites!
 ============================================
 
-**Info Sites** est un outil qui vous permez de superviser vos différents sites développés en PHP, soit à l'aide d'un framework, soit à l'aide d'un CMS. Vous pourrez gérer des organisations, des contacts, des projets, des sites de projets. Et notamment voir les mises à jour des plugins de chaque site de projets.
+**Info Sites** est un outil qui vous permet de superviser vos différents sites développés en PHP, soit à l'aide d'un framework, soit à l'aide d'un CMS. Vous pourrez gérer des organisations, des contacts, des projets, des sites de projets. Et notamment voir les mises à jour des plugins de chaque site de projets.
 
 Cette documentation va vous permettre de prendre en main l'outil rapidement.
 
