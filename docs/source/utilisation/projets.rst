@@ -1,14 +1,15 @@
 Les projets
 ===========
 
-Dans le cadre d'**Info Sites**, un projet est un support de communication (internet, intranet, extranet) mise en place dans un but précis. Exemple :
+Dans le cadre d'**Info Sites**, un projet est un support de communication (internet, intranet, extranet) mis en place dans un but précis. 
+Par exemple :
 
 - Le portail d'une fédération ;
 - Le site vitrine d'une entreprise, d'une association ;
 - L'intranet d'une association ;
 - etc.
 
-Il est composé d'un ensemble de sites, dit des environnements :
+Il est composé d'un ensemble de sites, qu'on appellera "environnements" :
 - Site de production ;
 - Site de pré-production ;
 - Site de recettes ;
