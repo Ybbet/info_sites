@@ -17,7 +17,7 @@ Table des matières :
 ====================
 
 .. toctree::
-   :maxdepth: 3
+   :maxdepth: 4
    :numbered:
    :glob:
 
