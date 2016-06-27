@@ -23,6 +23,7 @@ Table des matières :
 
    installation/index
    utilisation/index
+   administration/index
    contributing
    about
 
