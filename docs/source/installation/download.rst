@@ -41,7 +41,7 @@ Quelque soit la méthode de récupération des sources de SPIP, vous aurez une s
    svn.revision
    tmp/
 
-Il faut maintenant créer quelques répertoires pour que l'installation soit simplifier. Aller dans le répertoire où vous avez installé les sources de SPIP et créez les répertoires suivants à la racine du site :
+Il faut maintenant créer quelques répertoires pour que l'installation soit simplifiée. Aller dans le répertoire où vous avez installé les sources de SPIP et créer les répertoires suivants à la racine du site :
 
 .. code-block:: bash
 
@@ -75,7 +75,7 @@ La nouvelle structure de répertoire sera :
    tmp/
 
 .. caution::
-   Si vous rencontrez des problèmes d'autorisation sur les répertoires dans les étapes suivantes, il faudra changer les droits sur des répertoires avec cette ligne de commande:
+   Si vous rencontrez des problèmes d'autorisation sur les répertoires dans les étapes suivantes, il faudra changer les droits sur des répertoires avec cette ligne de commande :
       .. code-block:: shell
 
          chmod -R 755 local/ tmp/ config/ IMG/ plugins/ lib/
