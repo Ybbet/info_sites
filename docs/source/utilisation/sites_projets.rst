@@ -103,6 +103,23 @@ Depuis la page d’accueil d’**Info Sites**, le tableau de bord, cliquer sur l
    Un utilisateur de niveau 3 ne peut créer, éditer et supprimer un site de projet que sur les projets auxquels il est associé.
    De la même façon, cet utilisateur ne peut pas voir les identifiants et mots de passe des sites des projets auxquels il n'est pas associé.
 
+Après avoir renseigné tous les champs nécessaires, cliquer sur **Enregistrer** en bas de formulaire.
+
+.. tip::
+   Pour éviter d'avoir à faire défiler la fenêtre pour arriver au bouton **Enregistrer**, positionner le curseur dans un champ input du formulaire et appuyer sur la touche *Entrée*. Ceci aura le même effet que d’appuyer sur le bobouton **Enregistrer**.
+
+Utilisation du webservice
+^^^^^^^^^^^^^^^^^^^^^^^^^
+**Utilisateur(s) :** |user_niv0| |user_niv1|
+
+Pour renseigner toute une fiche de site, il est possible de passer par le biais d'une url de Webservice. En effet, vous pouvez installer sur le site à référencer un plugin qui va permet de récupérer tout un arbre XML qui mettre à jour régulièrement la fiche.
+
+Pour cela, en début de formulaire de création, vous pouvez saisir l'url du webservice dudit site et cliquer sur le bouton **Ajouter**. La page se rechargera avec toutes les informations recueillies.
+
+.. warning::
+   Il est à noter que si le site désiré nécessite des identifiants pour le consulter, il n’est pas possible d’utiliser le webservice pour la création de la fiche de site.
+
+
 
 Règles de saisies
 -----------------
