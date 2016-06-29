@@ -1,8 +1,10 @@
 Les utilisateurs
 ================
 
-Les niveaux
------------
+.. _`utilisation_utilisateurs_niveaux`:
+
+Les niveaux d’utilisateurs
+--------------------------
 
 Il existe 4 niveaux d’utilisateurs :
 
@@ -28,21 +30,42 @@ Depuis l’espace utilisateur, chaque utilisateur peut consulter la fiche d’un
 
 Un utilisateur de niveau 2 minimum a dans le menu *Autres* accès à l’item **Utilisateurs**. En cliquant sur cet item, l’utilisateur pourra consulter la liste de tous les utilisateurs référencés dans **Info Sites**. En cliquant sur le nom de l’utilisateur, il pourra consulter la fiche de l’utilisateur désiré et voir toutes les informations saisies pour cet utilisateur. Bien entendu, il ne pourra voir le login et le mot de passe de cet utilisateur.
 
+Page d’un utilisateur
+^^^^^^^^^^^^^^^^^^^^^
+Sur la page d’un utilisateur, en dessous des éléments renseignés (voir la section *Modification d’un utilisateur*), les tableaux listent les éléments suivants :
+
+- Les projets associés à l’utilisateur ;
+- Les sites des projets auxquels l’utilisateur est associé ;
+- Les commits (Git, SVN, etc.) en reprenant l’email de l’utilisateur. C’est-à-dire pour l’utilisateur ayant l’email *martin.dupont@entreprise.tld*, les commits de l’utilisateur *martin.dupont* lui seront associés.
+- Tout autre entité auquel l’utilisateur a été associé.
+
+Attribuer des projets à un utilisateur
+--------------------------------------
+**Utilisateur(s) :** |user_niv0| |user_niv1| |user_niv2|
+
+Sur la page d’un utilisateur, cliquer sur le bouton **Attribuer des projets à cet utilisateur** dans la colonne de droite. Sur cette nouvelle page, il est possible d'associer rapidement des projets à l’utilisateur sans passer par la page du projet. Il faut cliquer sur le rôle de l’utilisateur pour lesquels puis cliquer sur le bouton **Enregistrer**. En début de formulaire, cliquer sur **Filtres** pour voir les éléments suivants :
+
+- **Technologie** : filtrer les projets par logiciels renseignés sur les sites des projets ;
+- **Organisations** : filtrer les projets selon leur organisation ;
+- **Autres**, les filtres possibles sont :
+   - **Mes projets** : n’afficher que les projets auxquels l’utilisateur connecté est associé ;
+   - **Projets de l’utilisateur** : n’afficher que les projets auxquels l’utilisateur est déjà associé. Cela permettra de les éditer rapidement.
+
 
 Modification d’un utilisateur
 -----------------------------
 **Utilisateur(s) :** |user_niv0| |user_niv1|
 
-Depuis l’espace d’administration, survoler l’icone **Édition** puis cliquer sur **Utilisateurs**. Dans le tableau de listing des utilisateurs enregistrés, choisir l’utilisateur désiré en cliquant sur son nom. Puis cliquer sur **Modifier cet utilisateur**. On pourra éditer les champs suivants :
+Depuis la page d’un utilisateur, cliquer sur le bouton **Modifier cet utilisateur**. On pourra éditer les champs suivants :
 
 - **Signature** (obligatoire) : le nom ou le pseudo de l’utilisateur ;
 - **L’adresse email** (recommandée) ;
-- **Qui cet utilisateur :** Un courte biographie sur l’utilisateur, ou tout simplement ses fonctions ;
+- **Qui est cet utilisateur :** Un courte biographie sur l’utilisateur, ou tout simplement ses fonctions ;
 - **Statut :** Le niveau de l’utilisateur dans **Info Sites** ;
 - **Nom du site de l’utilisateur** ;
 - **Adresse (URL) du site** ;
 - **Login :** Le login doit contenir au moins 4 caractères ;
-- **Nouveau mot de passe :** il doit contenir au moins 6 caractères et doit être renseigné 2 fois.
+- **Nouveau mot de passe :** il doit contenir au moins 6 caractères et doit être renseigné 2 fois. Ces champs sont à laisser vides si on ne désire pas changer le mot de passe de l’utilisateur.
 
 Cliquer sur le bouton **Enregistrer** pour que les modifications soient prises en compte. Une redirection vers la fiche de l’utilisateur se fera si aucune erreur de saisie est rencontrée.
 
@@ -77,7 +100,12 @@ Cliquer sur le bouton **Enregistrer** pour que ce nouveau statut soit pris en co
 Dans la colonne de gauche, en dessous du numéro de l’utilisateur, le statut affichera *à la poubelle*.
 
 .. |user_niv3| image:: ../_static/user_niv3-16.png
+   :alt: Niveau 3
 .. |user_niv2| image:: ../_static/user_niv2-16.png
+   :alt: Niveau 2
 .. |user_niv1| image:: ../_static/user_niv1-16.png
+   :alt: Niveau 1
 .. |user_niv0| image:: ../_static/user_niv0-16.png
+   :alt: Niveau 0
 .. |user_supprime| image:: ../_static/user_supprime-16.png
+   :alt: Supprimé

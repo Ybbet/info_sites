@@ -1,7 +1,7 @@
 Les projets
 ===========
 
-Dans le cadre d'**Info Sites**, un projet est un support de communication (internet, intranet, extranet) mis en place dans un but précis. 
+Dans le cadre d'**Info Sites**, un projet est un support de communication (internet, intranet, extranet) mis en place dans un but précis.
 Par exemple :
 
 - Le portail d'une fédération ;
@@ -31,8 +31,13 @@ Suppression
 **Utilisateur(s) :** |user_niv0| |user_niv1|
 
 .. |user_niv3| image:: ../_static/user_niv3-16.png
+   :alt: Niveau 3
 .. |user_niv2| image:: ../_static/user_niv2-16.png
+   :alt: Niveau 2
 .. |user_niv1| image:: ../_static/user_niv1-16.png
+   :alt: Niveau 1
 .. |user_niv0| image:: ../_static/user_niv0-16.png
+   :alt: Niveau 0
 .. |user_supprime| image:: ../_static/user_supprime-16.png
+   :alt: Supprimé
 .. _Wikipedia (en): https://en.wikipedia.org/wiki/Deployment_environment#Environments
