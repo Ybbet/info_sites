@@ -2,7 +2,6 @@ Les utilisateurs
 ================
 
 .. _`utilisation_utilisateurs_niveaux`:
-
 Les niveaux d’utilisateurs
 --------------------------
 
@@ -21,7 +20,7 @@ Il existe 4 niveaux d’utilisateurs :
    Il est à noter que le niveau suivant a les mêmes droits que le niveau précédent en plus des spécificités de son niveau. Par exemple, le niveau 2 peut faire les mêmes actions que le niveau 3. Ce qui n’est pas le cas inversement.
    De plus, seuls les niveaux 1 et 0 ont le droit d’accéder à l’espace d’administration.
 
-
+.. _`utilisation_utilisateurs_voir`:
 Voir la fiche d’un utilisateur
 ------------------------------
 **Utilisateur(s) :** |user_niv0| |user_niv1| |user_niv2| |user_niv3|
@@ -30,6 +29,7 @@ Depuis l’espace utilisateur, chaque utilisateur peut consulter la fiche d’un
 
 Un utilisateur de niveau 2 minimum a dans le menu *Autres* accès à l’item **Utilisateurs**. En cliquant sur cet item, l’utilisateur pourra consulter la liste de tous les utilisateurs référencés dans **Info Sites**. En cliquant sur le nom de l’utilisateur, il pourra consulter la fiche de l’utilisateur désiré et voir toutes les informations saisies pour cet utilisateur. Bien entendu, il ne pourra voir le login et le mot de passe de cet utilisateur.
 
+.. _`utilisation_utilisateurs_page`:
 Page d’un utilisateur
 ^^^^^^^^^^^^^^^^^^^^^
 Sur la page d’un utilisateur, en dessous des éléments renseignés (voir la section *Modification d’un utilisateur*), les tableaux listent les éléments suivants :
@@ -39,6 +39,8 @@ Sur la page d’un utilisateur, en dessous des éléments renseignés (voir la s
 - Les commits (Git, SVN, etc.) en reprenant l’email de l’utilisateur. C’est-à-dire pour l’utilisateur ayant l’email *martin.dupont@entreprise.tld*, les commits de l’utilisateur *martin.dupont* lui seront associés.
 - Tout autre entité auquel l’utilisateur a été associé.
 
+
+.. _`utilisation_utilisateurs_attribuer`:
 Attribuer des projets à un utilisateur
 --------------------------------------
 **Utilisateur(s) :** |user_niv0| |user_niv1| |user_niv2|
@@ -52,6 +54,7 @@ Sur la page d’un utilisateur, cliquer sur le bouton **Attribuer des projets à
    - **Projets de l’utilisateur** : n’afficher que les projets auxquels l’utilisateur est déjà associé. Cela permettra de les éditer rapidement.
 
 
+.. _`utilisation_utilisateurs_modification`:
 Modification d’un utilisateur
 -----------------------------
 **Utilisateur(s) :** |user_niv0| |user_niv1|
@@ -72,8 +75,9 @@ Cliquer sur le bouton **Enregistrer** pour que les modifications soient prises e
 .. note::
    Lorsqu’un serveur LDAP a été configuré, dans ce cas précis, le login de l’utilisateur ne peut pas être modifié. Il correspond à l'identifiant LDAP de l’utilisateur. De plus, il est déconseillé de modifier le mot de passe de l’utilisateur pour ne pas porter à confusion l’utilisateur.
 
+.. _`utilisation_utilisateurs_role`:
 Rôle d’un utilisateur sur un projet
-------------------------------------
+-----------------------------------
 Un utilisateur peut être associé à un projet sur lequel il travaille. Ceci est très important notamment pour les utilisateurs de niveau 3. En effet, après avoir été associé à un projet, il pourra agir sur les sites des projets, en les créant, modifiant ou si besoin les supprimant.
 
 Les rôles possibles sont les suivants :
@@ -89,6 +93,8 @@ Les rôles possibles sont les suivants :
 
 Il est possible d’attribuer plusieurs à un utilisateur sur un même projet.
 
+
+.. _`utilisation_utilisateurs_suppression`:
 Suppression d’un utilisateur
 ----------------------------
 **Utilisateur(s) :** |user_niv0| |user_niv1|
@@ -98,6 +104,7 @@ Depuis l’espace d’administration, survoler l’icone **Édition** puis cliqu
 Cliquer sur le bouton **Enregistrer** pour que ce nouveau statut soit pris en compte. Une redirection vers la fiche de l’utilisateur se fera si aucune erreur de saisie est rencontrée.
 
 Dans la colonne de gauche, en dessous du numéro de l’utilisateur, le statut affichera *à la poubelle*.
+
 
 .. |user_niv3| image:: ../_static/user_niv3-16.png
    :alt: Niveau 3
